@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <html lang="en">
+    <title>RULES FROM DATA</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</head>
+<br>
+
+<body><center>
+    <div class="Jumbotron">
+    <h1><center> Natural language classifier for numeric data </center></h1>
+    <center><img src="./static/image11.jpg" alt=""></center>
+    </div>
+    <br>
+    <br>
+    <h5> (Upload a file with .dat extension) </h5>
+    <br>
+    <br><center>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file >
+      </center>
+      <!--
+      <label for="iter"> Number of iterations ( Ex. 10000): </label>
+      <input type=submit id="iter" name="noiter" value=""> 
+      -->
+      <br>
+      <br>
+      <p> (Number of iterations used are {{max_evaluations}}) </p>
+      <br>
+      <input type=submit value=Process >
+      <br>
+      
+       <!-- 
+      {% for message in get_flashed_messages() %}
+          
+          {{ message }}
+      
+      {% endfor %}
+      
+    
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="10000"></div>
+      </div>
+       -->
+       <br>
+       <br>
+       <p></p>
+       <p><label> NB! Original dataset is not saved with us </label></p>
+       <p></p>
+       
+       
+     
+    </form>
+ 
+ 
+    <br>  
+</center>
+<body>
+
+</html>
+
